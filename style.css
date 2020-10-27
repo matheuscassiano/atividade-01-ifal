@@ -54,6 +54,12 @@ section {
     grid-template-columns: 33% 33% 33%;
 }
 
+section.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 section div {
     padding: 1em;
     text-align: center;
